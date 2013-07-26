@@ -52,7 +52,17 @@ Roadmap
 Installation
 ------------
 
-This is not a gem yet. So... just clone this repository for now.
+This is not a gem yet. So... just clone this repository for now. After you close the repository, you will need to run this to install the required gems:
+
+```gherkin
+bundle install
+```
+
+Next, you will need to have Ffmpeg to generate screen shots and Xvfb to run headless mode. They can be installed on Debian flavors of linux like this:
+
+```gherkin
+sudo apt-get install xvfb
+```
 
 Contributing
 ------------
